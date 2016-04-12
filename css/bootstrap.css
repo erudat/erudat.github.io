@@ -4693,6 +4693,110 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
+
+.navbar-pink {
+  background-color: #eebdee;
+  border-color: #ecb5ec;
+}
+.navbar-pink .navbar-brand {
+  color: #171117;
+}
+.navbar-pink .navbar-brand:hover,
+.navbar-pink .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-pink .navbar-text {
+  color: #171117;
+}
+.navbar-pink .navbar-nav > li > a {
+  color: #171117;
+}
+.navbar-pink .navbar-nav > li > a:hover,
+.navbar-pink .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-pink .navbar-nav > .active > a,
+.navbar-pink .navbar-nav > .active > a:hover,
+.navbar-pink .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #eebdee;
+}
+.navbar-pink .navbar-nav > .disabled > a,
+.navbar-pink .navbar-nav > .disabled > a:hover,
+.navbar-pink .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-pink .navbar-toggle {
+  border-color: #171117;
+}
+.navbar-pink .navbar-toggle:hover,
+.navbar-pink .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-pink .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-pink .navbar-collapse,
+.navbar-pink .navbar-form {
+  border-color: #101010;
+}
+.navbar-pink .navbar-nav > .open > a,
+.navbar-pink .navbar-nav > .open > a:hover,
+.navbar-pink .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+@media (max-width: 767px) {
+  .navbar-pink .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #ecb5ec;
+  }
+  .navbar-pink .navbar-nav .open .dropdown-menu .divider {
+    background-color: #eebdee;
+  }
+  .navbar-pink .navbar-nav .open .dropdown-menu > li > a {
+    color: #9d9d9d;
+  }
+  .navbar-pink .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-pink .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-pink .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-pink .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-pink .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #eebdee;
+  }
+  .navbar-pink .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-pink .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-pink .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+.navbar-pink .navbar-link {
+  color: #171117;
+}
+.navbar-pink .navbar-link:hover {
+  color: #fff;
+}
+.navbar-pink .btn-link {
+  color: #171117;
+}
+.navbar-pink .btn-link:hover,
+.navbar-pink .btn-link:focus {
+  color: #fff;
+}
+.navbar-pink .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-inverse .btn-link:hover,
+.navbar-pink .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-inverse .btn-link:focus {
+  color: #444;
+}
+
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
