@@ -1187,7 +1187,7 @@ h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #605753;
 }
 h1 small,
 h2 small,
@@ -6055,8 +6055,8 @@ button.close {
 }
 .modal-footer {
   padding: 15px;
-  text-align: right;
-  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  background-color: #fbe2e4
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;
