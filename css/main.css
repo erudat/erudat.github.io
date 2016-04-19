@@ -79,6 +79,31 @@ body {
 p {
   margin: 0 0 10px;
 }
+
+.story{
+
+  overflow: hidden;
+  margin: 0 0 10px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+      -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+    -webkit-column-rule-color: pink; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: pink; /* Firefox */
+    column-rule-color: pink;
+}
+
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
