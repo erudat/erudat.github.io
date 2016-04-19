@@ -183,11 +183,12 @@ label {
   clear: left;
   width: 7em;
   text-align: right;
+  margin-bottom: 10px;
 }
 
-input{
+input, textarea{
   margin-left: 2em;
-
+  margin-bottom: 10px;
 }
 
 /************* END *************/
