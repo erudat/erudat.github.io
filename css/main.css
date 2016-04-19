@@ -176,6 +176,21 @@ ol ol {
   padding-right: 5px;
   padding-left: 5px;
 }
+
+label {
+  display: block;
+  float: left;
+  clear: left;
+  width: 7em;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+input, textarea{
+  margin-left: 2em;
+  margin-bottom: 10px;
+}
+
 /************* END *************/
 
 

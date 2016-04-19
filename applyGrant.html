@@ -19,163 +19,142 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-pink navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="index.html">
-                    <img class="img-responsive" src="images/SRAHF_Logo_2015.png" alt="">
-                </a>
+        <!-- Navigation -->
+        <nav class="navbar navbar-pink navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html">
+                        <img class="img-responsive" src="images/SRAHF_Logo_2015.png" alt="">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="https://www.cheddarup.com/tabs/donate-to-the-samantha-remington-angel-heart-foundation" target="_blank">Donate</a>
+                        </li>
+                        <li>
+                            <a href="story.html">Sammy's Story</a>
+                        </li>
+                        <li>
+                            <a href="#">Families We've Helped</a>
+                        </li>
+                        <li>
+                            <a href="#">Partners and Fundraising</a>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
+
+            <!-- Page Content -->
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- Main Content Column -->
+                    <div class="col-lg-8">
+
+                        <!-- Title -->
+                        <h1 align="center">Apply For A Grant</h1>
+
+                        <p align="center"><b>
+                            Please carefully read the criteria. Applications submitted that do not meet the criteria will not be considered. The Foundation may also request additional information from you after the application is submitted.
+                        </b></p>
+
+                        <fieldset>
+                         <legend align="center"><b>Grant Application – Criteria</b></legend>
+                         <ol class="apply">
+                            <li>
+                                The applicant must be parents or legal guardians of children 21 years old or younger who live in the United States and receive and pay for medical procedures, treatment, and care items of expense in the United States.
+                            </li>
+                            <li>
+                                Awards are limited to a medical condition that is considered to be serious and life-threatening in nature and, as a result of the procedure, treatment and care required imposes a serious financial burden on the family.
+                            </li>
+                            <li>
+                                An application must be submitted in writing or via submission form below to the Foundation Board of Directors. The applications should in the form of a letter outlining the situation, and in some cases, the Board may ask for documentation verifying the financial hardship, including copies of supporting material including W-2’s, recent pay stubs and tax returns, insurance limits.
+                            </li>
+                            <li>
+                                An application must be submitted prior to the child’s 21st birthday.
+                            </li>
+                            <li>
+                                In order to apply for your child, the child must live with you 51% or more and be listed as a dependent on your most recently filed IRS 1040. If the child is not listed on your most recently filed IRS 1040, then we need a copy of both your most recently filed IRS 1040 and the most recently filed IRS 1040 on which the child is listed as a dependent.
+                            </li>
+                            <li>
+                                Applications may be reviewed by a health care professional appointed by the Foundation to determine if the procedure, treatment or care meets accepted medical standards and is appropriate for the condition of the patient.
+                            </li>
+                            <li>
+                                The amount awarded to an individual within a 12-month period is limited to 85% of the fund balance.
+                            </li>
+                            <li>
+                                Awards to any one individual are limited to a lifetime maximum of $1,000,000.00 unless the Board, for good cause shown, votes to exceed the maximum.
+                            </li>
+                            <li>
+                                The health care professional or entity will be paid directly by the Foundation; exceptions can be made to reimburse the family if adequate documentation is submitted showing the health care professional has been paid and for such related items as temporary payments to maintain insurance coverage where necessary to preserve eligibility.
+                            </li>
+                            <li>
+                                Applicants who are not approved by the Board must wait a period of twelve months before re-applying, unless the medical condition and requested items have significantly changed from the original request.
+                            </li>
+                            <li>
+                                The Foundation does not discriminate against any applicant because of race, color, creed, religion, sex, sexual orientation, disability, marital status, ancestry, or national origin.
+                            </li>
+
+
+                        </ol>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend><b>Grant Application – Submission</b></legend>
+                        <?=$thankYou ?>
+                        <form method="post" action="MAILTO:ecraw17@gmail.com" enctype="text/plain">
+                            <label for="name1">Name:</label>
+                            <input type="text" id="name1" name="name1" class="reqfield" style="width:20em;">
+                            <br>
+                            <label for="mail1">Email:</label>
+                            <input type="text" id="mail1" name="mail1" class="reqfield" style="width:20em;">
+                            <br>
+                            <label for="comment">Grant Submission:</label>
+                            <textarea placeholder="Remember to read criteria before submitting grant!" type="text" id="comment" name="comment" class="reqfield" style="width:40em; height:400px;"></textarea>
+                            <br>
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </form>
+
+                    </fieldset>
+
+                </div>
+
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="https://www.cheddarup.com/tabs/donate-to-the-samantha-remington-angel-heart-foundation" target="_blank">Donate</a>
-                    </li>
-                    <li>
-                        <a href="story.html">Sammy's Story</a>
-                    </li>
-                    <li>
-                        <a href="#">Families We've Helped</a>
-                    </li>
-                    <li>
-                        <a href="#">Partners and Fundraising</a>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+                <!-- /.row -->
         </div>
         <!-- /.container -->
-    </nav>
 
-    <!-- Page Content -->
-    <div class="container">
+        <!-- Footer -->
+        <footer class="modal-footer">
+            <p class="p-footer">Copyright &copy; 2016 Samantha Remmington Angel Heart Foundation, All rights reserved. </p>
+        </footer>
 
-        <div class="row">
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
-            <!-- Main Content Column -->
-            <div class="main">
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
-                <!-- About Sammy -->
+    </body>
 
-                <!-- Title -->
-                <h1 align="center">Apply For A Grant</h1>
-
-                <p><b>
-                    Please carefully read the criteria. Applications submitted that do not meet the criteria will not be considered. The Foundation may also request additional information from you after the application is submitted.
-                </b></p>
-
-                <fieldset>
-                   <legend><b>Grant Application – Criteria</b></legend>
-                    <ol class="apply">
-                        <li>
-                            The applicant must be parents or legal guardians of children 21 years old or younger who live in the United States and receive and pay for medical procedures, treatment, and care items of expense in the United States.
-                        </li>
-                        <li>
-                            Awards are limited to a medical condition that is   considered to be serious and life-threatening in nature and, as a result of the procedure, treatment and care required imposes a serious financial burden on the family.
-                        </li>
-                        <li>
-                            An application must be submitted in writing or send your application via email to the Foundation Board of Directors. The applications should in the form of a letter outlining the situation, and in some cases, the Board may ask for documentation verifying the financial hardship, including copies of supporting material including W-2’s, recent pay stubs and tax returns, insurance limits.
-                        </li>
-                        <li>
-                            An application must be submitted prior to the child’s 21st birthday.
-                        </li>
-                        <li>
-                            In order to apply for your child, the child must live with you 51% or more and be listed as a dependent on your  most recently filed IRS 1040. If the child is not listed on your most recently filed IRS 1040, then we need a copy of both your most recently filed IRS 1040 and the most recently filed IRS 1040 on which the child is listed as a dependent.
-                        </li>
-                        <li>
-                            Applications may be reviewed by a health care professional appointed by the Foundation to determine if the procedure, treatment or care meets accepted medical standards and is appropriate for the condition of the patient.
-                        </li>
-                        <li>
-                            The amount awarded to an individual within a 12-month period is limited to 85% of the fund balance.
-                        </li>
-                        <li>
-                            Awards to any one individual are limited to a lifetime maximum of $1,000,000.00 unless the Board, for good cause shown, votes to exceed the maximum.
-                        </li>
-                        <li>
-                            The health care professional or entity will be paid directly by the Foundation; exceptions can be made to reimburse the family if adequate documentation is submitted showing the health care professional has been paid and for such related items as temporary payments to maintain insurance coverage where necessary to preserve eligibility.
-                        </li>
-                        <li>
-                            Applicants who are not approved by the Board must wait a period of twelve months before re-applying, unless the medical condition and requested items have significantly changed from the original request.
-                        </li>
-                        <li>
-                            The Foundation does not discriminate against any applicant because of race, color, creed, religion, sex, sexual orientation, disability, marital status, ancestry, or national origin.
-                        </li>
-
-
-                    </ol>
-                </fieldset>
-                
-            </div>
-
-            <!-- Sidebar Widgets Column -->
-            <div class="aside">
-
-                <!-- Blog Categories Well -->
-                <div>
-                    <h3>Getting Involved</h3>
-
-                    <hr>
-
-                    <div class="row">
-                        <div class="full">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Donate</a>
-                                </li>
-                                <li><a href="#">Volunteer</a>
-                                </li>
-                                <li><a href="#">How To Apply For A Grant</a>
-                                </li>
-                                <li><a href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-
-                <!-- Side Widget Well -->
-                <div>
-                    <h3>Shop Sammy's Bracelets</h3>
-
-                    <hr>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-    </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="modal-footer">
-        <p class="p-footer">Copyright &copy; 2016 Samantha Remmington Angel Heart Foundation, All rights reserved. </p>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+    </html>
