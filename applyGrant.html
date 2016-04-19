@@ -121,15 +121,15 @@
                     <fieldset>
                         <legend><b>Grant Application – Submission</b></legend>
                         <?=$thankYou ?>
-                        <form method="post" action="MAILTO:ecraw17@gmail.com" enctype="text/plain">
+                        <form class="form-group" method="post" action="MAILTO:ecraw17@gmail.com" enctype="text/plain">
                             <label for="name1">Name:</label>
-                            <input type="text" id="name1" name="name1" class="reqfield" style="width:20em;">
+                            <input type="text" id="name1" name="name1" class="form-control" style="width:20em;">
                             <br>
                             <label for="mail1">Email:</label>
-                            <input type="text" id="mail1" name="mail1" class="reqfield" style="width:20em;">
+                            <input type="text" id="mail1" name="mail1" class="form-control" style="width:20em;">
                             <br>
                             <label for="comment">Grant Submission:</label>
-                            <textarea placeholder="Remember to read criteria before submitting grant!" type="text" id="comment" name="comment" class="reqfield" style="width:40em; height:400px;"></textarea>
+                            <textarea placeholder="Remember to read criteria before submitting grant!" type="text" id="comment" name="comment" class="form-control" rows="10"></textarea>
                             <br>
                             <input type="submit" value="Send">
                             <input type="reset" value="Reset">
