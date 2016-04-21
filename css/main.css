@@ -43,6 +43,15 @@
   padding-right: 15px;
   padding-left: 15px;
 }
+.aside h3 {
+  border-bottom: 2px solid #dbdbdb;
+}
+.aside a {
+  display:block;
+  border-bottom: 1px dotted #999;
+  padding: .3125em 0; /* 5px / 16px */
+  font-size: 18px;
+}
 @media (min-width: 992px) {
   .aside {
     float: left;
@@ -93,15 +102,15 @@ p {
   -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
   -moz-column-gap: 40px; /* Firefox */
   column-gap: 40px;
-      -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
-    -moz-column-rule-style: solid; /* Firefox */
-    column-rule-style: solid;
-    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
-    -moz-column-rule-width: 1px; /* Firefox */
-    column-rule-width: 1px;
-    -webkit-column-rule-color: pink; /* Chrome, Safari, Opera */
-    -moz-column-rule-color: pink; /* Firefox */
-    column-rule-color: pink;
+  -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+  -moz-column-rule-style: solid; /* Firefox */
+  column-rule-style: solid;
+  -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+  -moz-column-rule-width: 1px; /* Firefox */
+  column-rule-width: 1px;
+  -webkit-column-rule-color: pink; /* Chrome, Safari, Opera */
+  -moz-column-rule-color: pink; /* Firefox */
+  column-rule-color: pink;
 }
 
 .lead {
@@ -125,12 +134,12 @@ a:hover {
 }
 
 a {
-  color: #337ab7;
+  color: #bc1e1b;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #bc1e1b;
   text-decoration: underline;
 }
 a:focus {
@@ -589,7 +598,7 @@ img {
 }
 .navbar-pink .navbar-toggle:hover,
 .navbar-pink .navbar-toggle:focus {
-  background-color: #333132;
+  background-color: #fbe2e4;
 }
 .navbar-pink .navbar-toggle .icon-bar {
   background-color: #bc1e1b;
