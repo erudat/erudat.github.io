@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="How to Apply for an Angel Heart Foundation Grant through the Sammy Angel Heart Foundation">
+    <meta name="author" content="Sammy Angel Heart Foundation">
 
-    <title>Samantha Remington Angel Heart Foundation</title>
+    <title>How to Apply for an Angel Heart Foundation Grant</title>
 
     <!-- Custom CSS Derived from Bootstrap Core CSS-->
     <link href="css/main.css" rel="stylesheet">
@@ -38,7 +38,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="index.html">
-                        <img class="img-responsive" src="images/SRAHF_Logo_2015.png" alt="">
+                        <img class="img-responsive" src="images/SRAHF_Logo_2015.png" alt="Foundation Logo: Click to go back to homepage">
                     </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,10 +51,10 @@
                             <a href="story.html">Sammy's Story</a>
                         </li>
                         <li>
-                            <a href="#">Families We've Helped</a>
+                            <a href="http://www.sammyangelheart.com/families-weve-helped/">Families We've Helped</a>
                         </li>
                         <li>
-                            <a href="#">Partners and Fundraising</a>
+                            <a href="http://www.sammyangelheart.com/partners-fundraising/">Partners and Fundraising</a>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -68,7 +68,7 @@
                 <div class="row">
 
                     <!-- Main Content Column -->
-                    <div class="col-lg-8">
+                    <div class="full">
 
                         <!-- Title -->
                         <h1 align="center">Apply For A Grant</h1>
@@ -118,21 +118,25 @@
                         </ol>
                     </fieldset>
                     <br>
+
+                    <iframe id="extFrame" src="http://www.google.com"></iframe>
+
+
                     <fieldset>
                         <legend><b>Grant Application – Submission</b></legend>
-                        <?=$thankYou ?>
-                        <form method="post" action="MAILTO:ecraw17@gmail.com" enctype="text/plain">
+                        <form class="form-group" method="post" action="MAILTO:apply@sammyangelheart.com?Subject=Grant%20Application" enctype="text/plain">
                             <label for="name1">Name:</label>
-                            <input type="text" id="name1" name="name1" class="reqfield" style="width:20em;">
+                            <input required type="text" id="name1" name="name1" class="form-control" style="width:20em;">
                             <br>
                             <label for="mail1">Email:</label>
-                            <input type="text" id="mail1" name="mail1" class="reqfield" style="width:20em;">
+                            <input required type="text" id="mail1" name="mail1" class="form-control" style="width:20em;">
                             <br>
                             <label for="comment">Grant Submission:</label>
-                            <textarea placeholder="Remember to read criteria before submitting grant!" type="text" id="comment" name="comment" class="reqfield" style="width:40em; height:400px;"></textarea>
+                            <textarea required placeholder="Remember to read criteria before submitting grant!" type="text" id="comment" name="comment" class="form-control" rows="10"></textarea>
                             <br>
-                            <input type="submit" value="Send">
-                            <input type="reset" value="Reset">
+                            
+                            <input type="reset" class="btn btn-info" value="Reset">
+                            <input type="submit" class="btn btn-info" value="Send">
                         </form>
 
                     </fieldset>
